@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wsnk_example"
+version = "0.1.0"
+dependencies = ["pytest"]
+optional-dependencies.tests =  ["flake8"]
